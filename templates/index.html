@@ -147,7 +147,7 @@
         "year": form.year.value
       };
 
-    const res = await fetch("/predict", {
+    const res = await fetch("predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
